@@ -10,6 +10,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+import { publicPath } from '../vue.config'
+
+
 library.add(faFacebook, faGithub, faLinkedin)
 
 
@@ -26,6 +29,7 @@ Vue.config.productionTip = false
 // Vue Router
 const router = new VueRouter({
     mode: 'history',
+    base: publicPath,
     routes,
 });
 
