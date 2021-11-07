@@ -54,6 +54,9 @@ export default {
   overflow: hidden;
 
 }
+a{
+  color: black;
+}
 .background-color{
   background: linear-gradient(90deg, #EEDE5C 22%, #A5E2E3 66%);
   height: 100%;
