@@ -19,7 +19,7 @@ export default {
     data(){
       return{
         github: 'thumbnailGithub.jpg',
-        githubLink: socialMediaLink.facebook,
+        githubLink: socialMediaLink.github,
       }
     }
 }
