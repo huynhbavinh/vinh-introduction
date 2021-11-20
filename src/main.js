@@ -9,11 +9,13 @@ import '@animxyz/core' // Import css here if you haven't els
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMugHot } from '@fortawesome/free-solid-svg-icons'
+
 
 import { publicPath } from '../vue.config'
 
 
-library.add(faFacebook, faGithub, faLinkedin)
+library.add(faFacebook, faGithub, faLinkedin, faMugHot)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

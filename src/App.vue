@@ -23,8 +23,8 @@
                     </router-link>
                   </li>
                   <li class="item-group">
-                    <router-link :to="{name: 'resume'}">
-                      Resume
+                    <router-link :to="{name: 'donate'}">
+                      Tks for coffee :3
                     </router-link>
                   </li>
               </ul>

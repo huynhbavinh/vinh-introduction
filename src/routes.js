@@ -1,6 +1,6 @@
 import HelloWorld from './components/HelloWorld'
 import Social from './components/Social'
-import Resume from './components/Resume'
+import Donate from './components/donate'
 import Facebook from './components/facebookView'
 import Github from './components/githubView'
 import Linkedin from './components/linkedin'
@@ -39,10 +39,10 @@ const routes = [{
         ]
     },
     {
-        path: '/resume',
-        component: Resume,
+        path: '/donate',
+        component: Donate,
         props: true,
-        name: 'resume'
+        name: 'donate'
     },
 
 
